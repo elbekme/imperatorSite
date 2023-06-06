@@ -168,70 +168,64 @@ li {
 }
 .container header {
   width: 100%;
-  height: 90rem;
+  height: 65rem;
   background: linear-gradient(99.05deg, #E1AA00 0%, #FFC000 74.72%);
   padding-top: 30rem;
+  background: #E5E5E5;
 }
-.container header .header-main {
-  width: 100%;
-  height: 40rem;
-  background: #000000;
-}
-.container header .header-main .header-main_item {
-  width: 120rem;
-  margin: 0 auto;
-  height: 40rem;
-  padding-right: 60rem;
-  position: relative;
-}
-.container header .header-main .header-main_item h1 {
+.container header h1 {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 34px;
   line-height: 140%;
+  text-align: center;
   letter-spacing: 0.25px;
-  color: #FFFFFF;
+  color: #000000;
+  margin-top: -14rem;
+  margin-bottom: 2.5rem;
 }
-.container header .header-main .header-main_item p {
-  margin-top: 1.6rem;
+.container header .header-main {
+  width: 120rem;
+  height: 41.2rem;
+  margin: 0 auto;
+  display: flex;
+}
+.container header .header-main .header-main_left {
+  width: 60%;
+  height: 100%;
+  padding-right: 10%;
+}
+.container header .header-main .header-main_left p {
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: 700;
+  font-size: 24px;
   line-height: 140%;
-  letter-spacing: 0.1px;
-  color: #FFFFFF;
+  color: #000000;
 }
-.container header .header-main .header-main_item ul {
+.container header .header-main .header-main_left .main-p {
   margin-top: 2.4rem;
-}
-.container header .header-main .header-main_item ul li a {
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 140%;
-  letter-spacing: 0.75px;
-  text-transform: uppercase;
-  color: #FFC000;
+  line-height: 170%;
+  letter-spacing: 0.25px;
+  color: #000000;
 }
-.container header img {
-  position: absolute;
-  bottom: -20rem;
-  right: 0;
-  z-index: 1;
+.container header .header-main .header-main_right {
+  width: 40%;
+  height: 100%;
+  background: url(../img/second-img.png);
+  border-radius: 6px;
 }
 .container .group-151 {
-  margin-top: 6.7rem;
+  margin-top: 6rem;
   width: 100%;
   margin-bottom: 8rem;
 }
-.container .group-151 .gr-151-item {
-  width: 120rem;
-  margin: 0 auto;
-}
-.container .group-151 .gr-151-item h1 {
+.container .group-151 h1 {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -242,16 +236,21 @@ li {
   color: #000000;
   margin-bottom: 2.4rem;
 }
+.container .group-151 .gr-151-item {
+  width: 100%;
+  margin: 0 auto;
+  background: #FFFFFF;
+}
 .container .group-151 .gr-151-item .gr-151_box {
   width: 120rem;
   display: flex;
   justify-content: space-between;
   text-align: center;
+  margin: 0 auto;
 }
 .container .group-151 .gr-151-item .gr-151_box .box-151 {
   width: 30rem;
   height: 15rem;
-  background: #FFFFFF;
   border-radius: 12px;
   padding-top: 2.6rem;
 }
@@ -264,141 +263,6 @@ li {
   line-height: 140%;
   letter-spacing: 0.44px;
   color: #000000;
-}
-.container .group-164 {
-  width: 100%;
-  margin-bottom: 15rem;
-  text-align: left;
-}
-.container .group-164 .gr-164-item {
-  width: 120rem;
-  height: 1px;
-  margin: 0 auto;
-  height: 56rem;
-}
-.container .group-164 .gr-164-item h1 {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 34px;
-  line-height: 140%;
-  text-align: center;
-  letter-spacing: 0.25px;
-  color: #000000;
-  margin-bottom: 3.2rem;
-}
-.container .group-164 .gr-164-item .gr-164-boxes {
-  height: 56rem;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  text-align: left;
-}
-.container .group-164 .gr-164-item .gr-164-boxes .box-164 {
-  width: 27rem;
-  height: 100%;
-  background: #FFFFFF;
-  box-shadow: 0px 0px 98px rgba(0, 0, 0, 0.05);
-  border-radius: 12px;
-  overflow: hidden;
-  text-align: left;
-}
-.container .group-164 .gr-164-item .gr-164-boxes .box-164 a button {
-  width: 90%;
-  height: 3.6rem;
-  background: #FFC000;
-  border: none;
-  border-radius: 6px;
-  margin-left: 1.3rem;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 140%;
-  letter-spacing: 0.75px;
-  text-transform: uppercase;
-  color: #000000;
-  transition: all 0.3s;
-}
-.container .group-164 .gr-164-item .gr-164-boxes .box-164 a button:hover {
-  background: rgba(0, 0, 0, 0.05);
-}
-.container .group-164 .gr-164-item .gr-164-boxes .box-164 img {
-  width: 100%;
-  margin-bottom: 0.7rem;
-}
-.container .group-164 .gr-164-item .gr-164-boxes .box-164 .h1 {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 140%;
-  letter-spacing: 0.75px;
-  text-transform: uppercase;
-  color: #000000;
-  text-align: left;
-  padding-left: 1.3rem;
-  padding-right: 1rem;
-}
-.container .group-164 .gr-164-item .gr-164-boxes .box-164 p {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 140%;
-  letter-spacing: 0.4px;
-  color: #000000;
-  padding-left: 1.3rem;
-  padding-right: 1rem;
-}
-.container .group-164 .gr-164-item .gr-164-boxes .box-164 .price {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding-left: 1.3rem;
-  padding-right: 1rem;
-  margin-top: 0.5rem;
-}
-.container .group-164 .gr-164-item .gr-164-boxes .box-164 .price .price-custom p {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 10px;
-  line-height: 140%;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  color: #000000;
-}
-.container .group-143 {
-  width: 100%;
-  height: 44rem;
-}
-.container .group-143 h1 {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 34px;
-  line-height: 140%;
-  text-align: center;
-  letter-spacing: 0.25px;
-  color: #000000;
-  margin-bottom: 3.8rem;
-}
-.container .group-143 .gr-143-item {
-  width: 120rem;
-  height: 35.4rem;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-}
-.container .group-143 .gr-143-item .gr-143-box {
-  width: 27rem;
-  height: 100%;
-  border-radius: 8px;
-  overflow: hidden;
-}
-.container .group-143 .gr-143-item .gr-143-box img {
-  width: 100%;
 }
 .container .group-144 {
   margin-bottom: 6.4rem;
@@ -450,93 +314,6 @@ li {
   margin-top: 4rem;
   display: flex;
   gap: 3rem;
-}
-.container .group-145 {
-  margin-top: 5rem;
-  width: 100%;
-  height: 47rem;
-  background: #FFC000;
-  padding-top: 17.3rem;
-  padding-left: 25%;
-  padding-right: 25%;
-}
-.container .group-145 h1 {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 34px;
-  line-height: 140%;
-  text-align: center;
-  letter-spacing: 0.25px;
-  color: #0D0D0D;
-}
-.container .group-145 h1 span {
-  font-size: 50px;
-}
-.container .group-146 {
-  width: 100%;
-  height: 47rem;
-  background: #FFFFFF;
-}
-.container .group-146 .gr-146-item {
-  width: 120rem;
-  height: 47rem;
-  display: flex;
-  margin: 0 auto;
-}
-.container .group-146 .gr-146-item .gr-146-left {
-  width: 50%;
-  height: 100%;
-}
-.container .group-146 .gr-146-item .gr-146-left img {
-  width: 100%;
-  height: 100%;
-}
-.container .group-146 .gr-146-item .gr-146-right {
-  width: 50%;
-  height: 100%;
-  padding-top: 10rem;
-  padding-left: 3rem;
-}
-.container .group-146 .gr-146-item .gr-146-right h1 {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 34px;
-  line-height: 140%;
-  letter-spacing: 0.25px;
-  color: #0D0D0D;
-}
-.container .group-146 .gr-146-item .gr-146-right p {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 140%;
-  letter-spacing: 0.44px;
-  color: #000000;
-  margin-top: 2.4rem;
-  margin-bottom: 2.4rem;
-}
-.container .group-146 .gr-146-item .gr-146-right a button {
-  background: #FFC000;
-  border-radius: 6px;
-  width: 20rem;
-  height: 3.6rem;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 140%;
-  text-align: center;
-  letter-spacing: 0.75px;
-  text-transform: uppercase;
-  color: #000000;
-  border: none;
-  transition: all 0.3s;
-}
-.container .group-146 .gr-146-item .gr-146-right a button:hover {
-  background: rgba(0, 0, 0, 0.05);
 }
 .container footer {
   width: 100%;
@@ -648,4 +425,4 @@ li {
   letter-spacing: 0.25px;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=second.css.map */
