@@ -315,6 +315,67 @@ li {
   display: flex;
   gap: 3rem;
 }
+.container .map-section {
+  margin-top: 15rem;
+  width: 100%;
+  height: 63rem;
+  margin-bottom: 6rem;
+}
+.container .map-section .map-item {
+  width: 120rem;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+}
+.container .map-section .map-item .map-left {
+  width: 50%;
+  height: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.container .map-section .map-item .map-left img {
+  width: 100%;
+  height: 100%;
+}
+.container .map-section .map-item .map-right {
+  width: 50%;
+  height: 100%;
+  padding-left: 10rem;
+}
+.container .map-section .map-item .map-right h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 64px;
+  color: #000000;
+}
+.container .map-section .map-item .map-right .address {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 6.5rem;
+  justify-content: space-between;
+}
+.container .map-section .map-item .map-right .address ul li {
+  padding-top: 1rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #000000;
+}
+.container .map-section .map-item .map-right .address ul li p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  color: #000000;
+}
 .container footer {
   width: 100%;
   background: #FFFFFF;
